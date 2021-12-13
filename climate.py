@@ -22,7 +22,7 @@ st.write(
     """
 Dear Polar bear,
 
-You guys are the planet’s biggest land-based carnivores. Although most of you are born on land, you spend most of their time on the sea ice. Since your habitats are around water and ice, sorry that you are particularly at risk due to global warming, which is melting the Arctic Sea ice you depend on. Because of the dependence of the sea ice, you guys are now classified as marine mammals.
+You guys are the planet’s biggest land-based carnivores. Although most of you are born on land, you spend most of your time on the sea ice. Since your habitats are around water and ice, sorry that you are particularly at risk due to global warming, which is melting the Arctic Sea ice you depend on. Because of the dependence of the sea ice, you guys are now classified as marine mammals.
 
 Due to the loss of the habitats caused by climate change, you are classified as vulnerable species as well.
 
@@ -30,7 +30,7 @@ You are such strong predator which can generally live and hunt alone, and I beli
 
 You can swim for hours to get from one piece of ice to another, and you are capable of fasting for up to several months in late summer and early fall because you can’t hunt for seal when the sea is unfrozen.
 
-Since the first industrial revolution, we have contributed negatively to the global environment. The fact of humanism in that period have damaged so many species and lands. The deforestation and pollution have brought the greenhouse effect which cause the temperature to increase. I can’t believe that you, lovely and powerful creature, is vulnerable due to man-made climate change. 
+Since the first industrial revolution, we have contributed negatively to the global environment. The fact of humanism in that period have damaged so many species and lands. The deforestation and pollution have brought the greenhouse effect which cause the temperature to increase. I can’t believe that you, lovely and powerful creature, are vulnerable due to man-made climate change. 
 
 Your life is on our hand. Let us help You! 
 
@@ -199,4 +199,4 @@ st.text("Are you going to take action right now to save the polar bear?")
 result = st.button("YES!!")
 if result:
     n = n + 1
-st.text(f"You are the {n} person who is helping save the polar bear!")
+st.text(f"You are the {n}th person who is helping save the polar bear!")
