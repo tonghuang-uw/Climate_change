@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 from PIL import Image
+import sqlalchemy
+
+database_connection_string = "sqlite:///"
+engine = sqlalchemy.create_engine(database_connection_string)
+engine
 
 app_formal_name = "Unsplash+CLIP image similarity"
 
@@ -193,10 +198,12 @@ st.subheader("As you start recycling, polar bear may be saved from the danger. "
 st.write(":heart:" * 53)
 st.text("'That's one small step for man, one giant leap for mankind.-Neil Armstrong'")
 
-n = 0
+
 st.text("Are you going to take action right now to save the polar bear?")
 result = st.button("YES!!")
 if result:
-    n = n + 1
     st.balloons()
-st.text(f"You are the {n}th person who is helping save the polar bear!")
+    st.text(
+        "Thank you for your participation, and I hope the content help you learn about the climate change!"
+    )
+    st.text("The more you do, the better our planet will be")
