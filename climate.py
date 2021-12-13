@@ -201,4 +201,5 @@ if result:
     st.text(
         "Thank you for your participation, and I hope the content help you learn about the climate change!"
     )
-    st.text("The more you do, the better our planet will be")
+    st.text("The more you do, the better our planet will be！")
+    st.write(":smile:")
