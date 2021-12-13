@@ -122,8 +122,7 @@ df_combine = pd.DataFrame(
 st.line_chart(df_combine)
 
 st.header("What can we do to prevent greenhouse effect?")
-pie = Image.open(Path("./images/pie.jpeg"))
-st.image(pie, width=400)
+
 
 st.subheader("Use less energy")
 st.write(
