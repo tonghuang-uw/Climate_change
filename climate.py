@@ -2,11 +2,6 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 from PIL import Image
-import sqlalchemy
-
-database_connection_string = "sqlite:///"
-engine = sqlalchemy.create_engine(database_connection_string)
-engine
 
 app_formal_name = "Unsplash+CLIP image similarity"
 
