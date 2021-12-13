@@ -199,4 +199,4 @@ st.text("Are you going to take action right now to save the polar bear?")
 result = st.button("YES!!")
 if result:
     n = n + 1
-st.text(f"You are the {n} person who is helping save the polar bear")
+st.text(f"You are the {n} person who is helping save the polar bear!")
